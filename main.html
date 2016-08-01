@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Diner-App</title>
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script> 
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div id="welcome-overlay"></div>
+    <nav class="nav">
+      <h1>Diner App</h1>
+    </nav>
+   <div class="alert alert-success">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Added to Cart!</strong>
+</div>
+    <div class="diner-wrapper ">
+      <button>New Diner</button>
+      <input id="dinerName" type="text" placeholder="name">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/lasagna.jpg" alt="#">
+            <div class="caption lasagna">
+              <h3>Lasagna</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="lasagna">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail spaghetti">
+            <img src="img/spaghetti.jpg" alt="#">
+            <div class="caption spaghetti">
+              <h3>Spaghetti</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="spaghetti">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/fried-chicken.jpg" alt="#">
+            <div class="caption friedChicken">
+              <h3>Fried Chicken</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="friedChicken">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/meatball-sandwich.jpg" alt="#">
+            <div class="caption meatBallSandWich">
+              <h3>Meat Ball Sandwich</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="meatBallSandWich">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/fried-peas.jpg" alt="#">
+            <div class="caption friedPeas">
+              <h3>Fried Peas</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="friedPeas">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/singapore-chicken.jpg" alt="#">
+            <div class="caption chickenAndRice">
+              <h3>Chicken and Rice</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="chickenAndRice">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/buffalo-fries.jpg" alt="#">
+            <div class="caption fries">
+              <h3>Fries</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="frenchFries">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/buffalo-wings.jpg" alt="#">
+            <div class="caption buffaloWings">
+              <h3>Buffalo Wings</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="buffaloWings">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/burger.jpg" alt="#">
+            <div class="caption burger">
+              <h3>Burger</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="burger">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/hotdog.jpg" alt="#">
+            <div class="caption hotdog">
+              <h3>Hotdog</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="hotdog">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/burrito.jpg" alt="#">
+            <div class="caption burrito">
+              <h3>Burrito</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="burrito">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/enchilada.jpg" alt="#">
+            <div class="caption enchilada">
+              <h3>Enchilada</h3>
+              <p><a href="#" class="btn btn-primary food" role="button" id="enchilada">Add to Cart</a> <a href="#" class="btn btn-info" role="button">Description</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <button id="check-out">Check Out</button>
+    <div class="dishes">
+      Current Order:
+    </div>
+    <div id="bill"></div>
+    </div>
+  </body>
+</html>
